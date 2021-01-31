@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Container, Row, Card, Button } from 'react-bootstrap'
+import Menu from '../components/Menu'
 
 export default function Home() {
   return (
@@ -9,8 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
       <Container>
+        <Menu></Menu>
         <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bem vindo <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <p>
           Get started by editing <code>pages/index.js</code>
